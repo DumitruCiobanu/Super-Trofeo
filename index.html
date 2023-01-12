@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Super Trofeo</title>
+  <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -18,39 +18,72 @@
     <nav class="nav">
       <ul class="menu-list menu-left">
         <li class="menu-item">
-          <a href="#" class="menu-link">About Race</a>
+          <a href="#info" class="menu-link">About Race</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Track</a>
+          <a href="#track" class="menu-link">Track</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Lamborghini Super Trofeo</a>
+          <a href="#evo" class="menu-link">Lamborghini Super Trofeo</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">News</a>
+          <a href="#news" class="menu-link">News</a>
         </li>
       </ul>
       <a href="#" class="logo">
-        <img class="logo-img" src="./images/logo.svg" alt="logo">
+        <img class="logo-img" src="images/logo.svg" alt="logo">
       </a>
       <ul class="menu-list menu-right">
         <li class="menu-item">
-          <a href="#" class="menu-link">Buy Tickets</a>
+          <a href="#tickets" class="menu-link">Buy Tickets</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Watch Online</a>
+          <a href="#watch" class="menu-link">Watch Online</a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Contacts</a>
+          <a href="#contacts" class="menu-link">Contacts</a>
         </li>
         <li >
           <a ></a>
         </li>
       </ul>
+
+  <button class="menu-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+      <ul class="menu-mobile menu--open">
+        <li class="menu-item">
+          <a href="#info" class="menu-link">About Race</a>
+        </li>
+        <li class="menu-item">
+          <a href="#track" class="menu-link">Track</a>
+        </li>
+        <li class="menu-item">
+          <a href="#evo" class="menu-link">Lamborghini Super Trofeo</a>
+        </li>
+        <li class="menu-item">
+          <a href="#news" class="menu-link">News</a>
+        </li>
+        <li class="menu-item">
+          <a href="#tickets" class="menu-link">Buy Tickets</a>
+        </li>
+        <li class="menu-item">
+          <a href="#watch" class="menu-link">Watch Online</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contacts" class="menu-link">Contacts</a>
+        </li>
+        <li >
+          <a ></a>
+        </li>
+      </ul>
+
     </nav>
   </div>
 </header>
-<main class="main">
+ <main class="main">
 <section class="promo">
   <div class="big-container">
     <div class="promo__inner">
@@ -70,10 +103,12 @@
     </div>
   </div>
 </section>
-<section class="info">
+
+
+<section  class="info">
   <div class="container">
     <div class="info__part info__part-first">
-<h3 class="info__title">SUPER TROFEO WORLD FINAL</h3>
+<h3 id="info" class="info__title">SUPER TROFEO WORLD FINAL</h3>
 <div class="info__part-textbox">
   <p class="info__text">The Lamborghini World Final has brought the curtain down on every Super Trofeo season since 2013. Every year, the drivers from all of the continental championships go to a different circuit and take part in two 50-minute Sprint races, with the overall winner being crowned as the Lamborghini world champion. As well as being the biggest racing weekend of the year, the Lamborghini World Final is a genuine motorsport festival that attracts fans and owners from all over the world.
   </p>
@@ -143,21 +178,23 @@
     </div>
   </div>
 </section>
-<section class="track">
+
+<section  class="track">
   <div class="container">
-    <h3 class="track__title">PORTIMAO TRACK</h3>
+    <h3 id="track" class="track__title">PORTIMAO TRACK</h3>
     <p class="track__text">
       The Autodromo Internacional do Algarve is located in the region of the same name in the south of Portugal, near the city of Portimão. Opened in October 2008, the racing complex is one of the most modern in Europe, spread over an area of about 300 hectares among the hills surrounding the Portuguese city, and the length of the track itself is 4,684 meters.
     </p>
     <img src="images/track.png" alt="" class="track__img">
   </div>
 </section>
+
 <section class="evo">
   <div class="evo-black">
     <div class="container">
       <div class="evo-black__inner">
         <div class="evo-black__info">
-          <h3 class="evo-black__title">SUPER TROFEO EVO</h3>
+          <h3 id="evo" class="evo-black__title">SUPER TROFEO EVO</h3>
           <div class="evo-black__infobox">
             <p class="evo-black__text">
               The new Huracán Super Trofeo EVO achieves even greater heights than its illustrious predecessor thanks to completely redesigned aerodynamics. The Huracán Super Trofeo EVO is the ideal launching pad for all drivers who want to begin their GT-class racing careers.
@@ -206,7 +243,7 @@
        <p class="evo-white__text">
         Among the most obvious changes to the Lamborghini Huracan Super Trofeo EVO dodger are the rear spoiler on the rear hood and the upper air intake, which make it instantly recognizable to onlookers.
        </p>
-       <div class="evo-white__video">
+       <div id="watch" class="evo-white__video">
         <a href="#" class="evo-white__video-link">
           <img src="images/evo-icon.svg" alt="">
           <span>Watch Online</span>
@@ -217,7 +254,8 @@
   </div>
   </div>
 </section>
-<section class="blog">
+
+<section id="news" class="blog">
  <div class="container">
     <h3 class="blog__title">
      BLOG
@@ -297,14 +335,15 @@
       <img class="blog__quote-img" src="images/quote.png" alt="">
     </div>
   </div>
-</section>
+ </section>
 </main>
+
 <footer class="footer">
   <div class="container">
-    <h3 class="footer__title">
+    <h3 id="contacts" class="footer__title">
       Contacts
     </h3>
-    <div class="footer-top">
+    <div id="tickets" class="footer-top">
 <ul class="footer__info">
 <li class="footer__info-item">
   <dl>
